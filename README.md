@@ -28,6 +28,9 @@ The goal of this project is to:
 
 ## 📊 Dataset
 
+You can download the dataset from Google Drive:  
+[📁 Dataset – Google Drive](https://drive.google.com/drive/folders/1rQ6s9lUbNmEyQkhjmvYwDmZLSPhaXenP?usp=drive_link)
+
 The project works with a dataset of ~**22,000 student essays**, where each essay is tokenized and annotated with PII labels.
 
 Key characteristics:
@@ -126,6 +129,8 @@ Because essays can exceed BERT’s 512-token limit, a **sliding window** strateg
 - Epochs: `10`
 - Early stopping based on validation performance
 
+You can download the trained BERT model weights here:  
+[🧠 Model Weights – Google Drive](https://drive.google.com/file/d/1pGILsq47kb-9QernAZyqpoX1FvartJKx/view?usp=drive_link)
 ---
 
 ## ✅ Results (Token-Level BERT)
