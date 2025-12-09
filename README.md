@@ -152,12 +152,7 @@ Overall, **BERT significantly outperforms the document-level baselines**, and is
 Suggested structure for the GitHub repo:
 
 ```text
-.
-├── data/
-│   ├── train.json           # (optional, not committed)
-│   ├── test.json            # (optional)
-│   └── pii_dataset.csv      # (optional)
-├── notebooks/
-│   └── pii_pii_ner_educational_texts.ipynb   # main project notebook (this file)
+├── Main code/
+│   └── code.ipynb   # main project notebook (this file)
 ├── README.md
 └── requirements.txt         # (optional) Python dependencies
